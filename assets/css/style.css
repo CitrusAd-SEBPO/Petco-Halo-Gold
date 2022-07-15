@@ -679,6 +679,7 @@ p {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 25px;
+    overflow-x: auto;
 }
 
 .benefits-single-item > a > img {
@@ -895,6 +896,7 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+            text-align: center;
 }
 
 .upgrade-video {
@@ -981,6 +983,19 @@ p {
     padding-bottom: 25px;
 }
 
+.citrus-tab-left-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+
+.citrus-tab-left-img img {
+    width: 100%;
+    height: auto;
+}
+
 .citrus-tab__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -990,6 +1005,8 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+
 
 .tab__list_top_img_btn .tab__item.MiCS_tab_item_active_citrus .active{
     display: block;
@@ -1357,8 +1374,9 @@ p {
     }
     .benefits-icon-flex {
         margin-top: 25px;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        /* -ms-flex-wrap: wrap;
+            flex-wrap: wrap; */
+            overflow-x: auto;
     }
     .benefits-area {
         padding-top: 40px;
@@ -1511,7 +1529,7 @@ p {
     }
 
     .upgrade-video > iframe {
-        position: absolute;
+        /* position: absolute; */
         width: 100%;
         height: 300px !important;
         left: 0;
@@ -1523,6 +1541,22 @@ p {
 
 
 @media all and (max-width: 575px) {
+        .upgrade-video {
+            margin-top: 20px;
+        }
+        .citrus-tab-left-img {
+            display: block;
+            width: 50%;
+            height: 300px;
+            float: left;
+            overflow: hidden;
+        }
+    
+        .citrus-tab-left-img img {
+            width: auto;
+            height: 100%;
+        }
+
         .chart-img {            
             overflow-x: auto;
         }
