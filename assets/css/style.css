@@ -3581,7 +3581,7 @@ p{
 }
 
 
-@media all and (min-width: 992px) and (max-width:1440px) {
+@media all and (min-width: 1281px) and (max-width:1440px) {
     .citrus_cta_btn {
         padding: 10px 30px;
         font-size: 18px;
@@ -3603,6 +3603,7 @@ p{
 }
 
 @media all and (min-width: 992px) and (max-width:1280px) {
+
     .citrus-slider-banner-content {
         -webkit-box-align: center;
             -ms-flex-align: center;
