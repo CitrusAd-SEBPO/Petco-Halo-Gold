@@ -2223,6 +2223,7 @@ a:hover {
 }
 
 .citrus_cta_btn {
+  font-family: "PetcoCircularTT-Bold", arial !important;
   padding: 15px 70px;
   color: #fff;
   background-color: inherit;
