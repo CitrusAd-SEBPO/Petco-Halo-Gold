@@ -265,6 +265,10 @@ a:hover {
 }
 
 /****slider styles****/
+.splide__list {
+  height:auto !important;
+}
+
 .splide__slide img {
   width: 100%;
   height: auto;
@@ -1524,6 +1528,20 @@ p {
 }
 
 @media all and (max-width: 575px) {
+  .citrus_cta_btn, .citrus_cta_btn2, .citrus_cta_btn3 {
+    border: none !important;
+    text-decoration: underline !important;
+    text-transform: capitalize !important;
+    top: unset !important;
+    bottom: 20px !important;
+    font-size: 16px !important;
+    left: 43% !important;
+    padding: 0 !important;
+  }
+
+  .citrus_cta_btn2, .citrus_cta_btn3 {
+    left: 38% !important;
+  }
   .upgrade-video {
     margin-top: 20px;
   }
