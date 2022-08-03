@@ -3647,13 +3647,9 @@ p {
     padding: 10px 30px;
     font-size: 12px;
     line-height: 12px;
-    left: 175px;
-    top: 140px;
   }
 
   .citrus_cta_btn2 {
-    left: 430px;
-    top: 105px;
     padding: 10px 12px;
     width: auto;
   }
@@ -3691,18 +3687,16 @@ p {
 
 @media all and (max-width: 991px) {
   .citrus_cta_btn {
-    padding: 10px 30px;
+    padding: 7px 30px;
     font-size: 12px;
     line-height: 12px;
-    left: 131px;
-    top: 100px;
+    top: 55%;
   }
 
   .citrus_cta_btn2 {
-    left: 320px;
-    top: 75px;
-    padding: 10px 12px;
+    padding: 7px 10px;
     width: auto;
+    top: 40%;
   }
 
   .citrus_cta_btn3 {
