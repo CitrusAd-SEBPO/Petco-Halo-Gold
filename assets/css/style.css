@@ -2261,8 +2261,8 @@ a:hover {
   text-transform: uppercase;
   position: absolute;
   text-align: center;
-  left: 323px;
-  top: 275px;
+  left: 17%;
+  top: 65%;
 }
 
 /* .citrus_cta_btn:hover {
@@ -2281,8 +2281,8 @@ a:hover {
   top: 54px;
 }
 .citrus_cta_btn2 {
-  left: 792px;
-  top: 210px;
+  left: 42%;
+    top: 50%;
   padding: 15px;
   width: 222px;
 }
